@@ -1,0 +1,10 @@
+﻿@model List<BridgeModel>
+
+<h1>Liste des stations</h1>
+
+<ul>
+    @foreach (var bridge in Model)
+    {
+        <li>@bridge.closing_date</li>
+    }
+</ul>
